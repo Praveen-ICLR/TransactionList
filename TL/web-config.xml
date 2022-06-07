@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dsn>
+	<driver>SQL Server</driver>
+	<driver1>{Sybase ASE ODBC Driver}</driver1>
+	<dsname>ICSERVER</dsname>
+	<server>10.5.1.45</server>
+	<UserId>devadm</UserId>
+	<Password>Dev@2022</Password>
+	<database>icdb</database>
+	<application>IC</application>
+	<implementation>SQLServer</implementation>
+	<input_delim>,</input_delim>
+	<output_delim>,</output_delim>
+	<rowsreturned>100000</rowsreturned>
+	<logactivity>0</logactivity>
+	<title_accname>1</title_accname>
+	<title_symname>1</title_symname>
+	<vppath>/sba</vppath>
+	<logpath>/sba/log/</logpath>
+	<dnldfolder>/sba/temp/</dnldfolder>
+	<hrptfolder>/sba/temp/</hrptfolder>
+	<iofolder>D:\ic\load\</iofolder>
+	<BCPfolder>D:\sparta\IC_WEB\temp\</BCPfolder>
+	<scr_load_def>3000</scr_load_def>
+	<ICexeDir>D:\IC\IC_DATA\exes\</ICexeDir>
+	<ICWebDir>D:\IC\ICWeb\</ICWebDir>
+	<ICInDir>D:\IC\IC_DATA\inbound\</ICInDir>
+	<ICOutDir>D:\IC\IC_DATA\outbound\</ICOutDir>
+	<ICLoadDir>D:\IC\IC_DATA\load\</ICLoadDir>
+	<ICLogDir>D:\IC\IC_DATA\log\</ICLogDir>
+	<sys_msg></sys_msg>
+	<ICReport>http://DL380-QA/ReportServer</ICReport>
+</dsn>

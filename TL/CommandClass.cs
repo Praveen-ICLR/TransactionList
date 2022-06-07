@@ -14,6 +14,7 @@ namespace TL
         private int AcctLoadCommandTimeout = 12000;
         public DbCommand GetTranslist()
         {
+            //icGeneric.GetConfigData();
             DbProviderFactory ICprovider = icGeneric.GetProvider();
             DbCommand ICcmd = ICprovider.CreateCommand();
             ICcmd.CommandText = "translist";

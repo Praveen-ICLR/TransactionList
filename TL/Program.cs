@@ -13,8 +13,8 @@ namespace TL
     {
         static void Main(string[] args)
         {
+           icGeneric.GetConfigData();
 
-           
             DataTable dt = new DataTable();
             DbCommand ICcmd;
             CommandClass objCC = new CommandClass();
