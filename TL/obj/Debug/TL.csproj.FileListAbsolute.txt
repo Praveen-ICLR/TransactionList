@@ -1,0 +1,10 @@
+D:\IC\TL\TL\bin\Debug\TL.exe.config
+D:\IC\TL\TL\bin\Debug\TL.exe
+D:\IC\TL\TL\bin\Debug\TL.pdb
+D:\IC\TL\TL\bin\Debug\icGeneric.dll
+D:\IC\TL\TL\obj\Debug\TL.csproj.AssemblyReference.cache
+D:\IC\TL\TL\obj\Debug\TL.csproj.SuggestedBindingRedirects.cache
+D:\IC\TL\TL\obj\Debug\TL.csproj.CoreCompileInputs.cache
+D:\IC\TL\TL\obj\Debug\TL.csproj.CopyComplete
+D:\IC\TL\TL\obj\Debug\TL.exe
+D:\IC\TL\TL\obj\Debug\TL.pdb
