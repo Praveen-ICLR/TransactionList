@@ -16,10 +16,20 @@ namespace TL
         {
             //icGeneric.GetConfigData();
             DbProviderFactory ICprovider = icGeneric.GetProvider();
+           // Console.WriteLine(ICprovider);
+          //  var ICconnection = ICprovider.CreateConnection();
+            
+           // ICconnection.ConnectionString = icGeneric.GetConnString();
+          //  Console.WriteLine(ICconnection.ConnectionString);
             DbCommand ICcmd = ICprovider.CreateCommand();
             ICcmd.CommandText = "translist";
             ICcmd.CommandType = CommandType.StoredProcedure;
             ICcmd.CommandTimeout = AcctLoadCommandTimeout;
+          //  ICconnection.Open();
+            //ICcmd.ExecuteNonQuery();
+            //ICconnection.Close();
+
+          //  Console.WriteLine(ICcmd);
 
             return ICcmd;
         }
